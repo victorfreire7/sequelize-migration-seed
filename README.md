@@ -1,8 +1,8 @@
 # Sequelize Migration
 
-##### Este repositório tem como objetivo o estudo e melhor entendimento de migrations e seed, utilizando a ferramenta [Sequelie-Cli](https://sequelize.org/docs/v6/other-topics/migrations/) para melhor desenvolvimento. Para melhores informações, leia a documentação sobre migrations do software sequelize. 
+Este repositório tem como objetivo o estudo e melhor entendimento de migrations e seed, utilizando a ferramenta [Sequelie-Cli](https://sequelize.org/docs/v6/other-topics/migrations/) para melhor desenvolvimento. Para melhores informações, leia a documentação sobre migrations do software sequelize. 
 
-##### É importante lembrar que, neste repositório 'migrations' está inserida no contexto de atualização de um banco de dados entre envolvidos em um determinado projeto.
+É importante lembrar que, neste repositório 'migrations' está inserida no contexto de atualização de um banco de dados entre envolvidos em um determinado projeto.
 
 ---
 # O que é migration?
