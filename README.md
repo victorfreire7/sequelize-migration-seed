@@ -135,8 +135,8 @@ Com o novo arquivo criado, podemos alterar as informações.
 
 # Bibliografia:
 
-https://sequelize.org/docs/v6/other-topics/migrations/
-https://pt.stackoverflow.com/questions/207501/o-que-%C3%A9-seeder-e-migration
-https://github.com/sequelize/cli?tab=readme-ov-file
+https://sequelize.org/docs/v6/other-topics/migrations/ </br>
+https://pt.stackoverflow.com/questions/207501/o-que-%C3%A9-seeder-e-migration</br>
+https://github.com/sequelize/cli?tab=readme-ov-file</br>
 https://sequelize.org/docs/v6/
 
