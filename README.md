@@ -88,6 +88,35 @@ Ou, para desfazer uma especifica:
 ``` terminal
     npx sequelize-cli db:migrate:undo:all --to XXXXXXXXXXXXXX-create-posts.js
 ```
+
+## Alterando valores de colunas
+
+Criando uma nova migração e utilizando o método 'changeColumn()' é possivel alterar os valores de uma coluna em específica. O método pede 3 paramêtros:
+- 1º: Tabela que vai ser alterada;
+- 2º Coluna que vai ser alterada;
+- 3º Valores alterados.
+Neste exemplo a baixo, uma hipotetica coluna de 'email' na tabela 'alunos' vai ser modificada:
+
+``` JavaScript
+    'use strict';
+
+    /** @type {import('sequelize-cli').Migration} */
+    module.exports = {
+    async up (queryInterface, Sequelize) {
+        await queryInterface.changeColumn(
+        'alunos',
+        'email',
+        {
+            type: Sequelize.STRING,
+            allowNull: false,
+            unique: true
+        });
+    },
+
+    async down () {}
+    };
+```
+
 ---
 # O que é seed?
 
