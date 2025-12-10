@@ -154,6 +154,10 @@ Com o novo arquivo criado, podemos alterar as informações.
     }
     };
 ```
+## Importando Seed para tabelas:
+``` terminal    
+    npx sequelize-cli db:seed:all
+```
 
 ## Desfazendo Seed:
 ``` terminal
